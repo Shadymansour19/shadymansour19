@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dark_mode.svg" alt="Shady Mansour" width="100%">
+  <img src="card.svg" alt="Shady Mansour" width="100%">
 </p>
 
 <p align="center">
@@ -40,21 +40,21 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **e
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/stmicroelectronics/3CB4E6" height="40" alt="STM32"/><br><sub>STM32</sub></td>
 <td align="center" width="90"><img src="https://skillicons.dev/icons?i=arduino" height="40" alt="Arduino"/><br><sub>Arduino</sub></td>
 <td align="center" width="90"><img src="https://skillicons.dev/icons?i=vscode" height="40" alt="VS Code"/><br><sub>VS Code</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=qt" height="40" alt="Qt / PyQt6"/><br><sub>Qt / PyQt6</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=qt" height="40" alt="Qt"/><br><sub>Qt</sub></td>
 <td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres" height="40" alt="PostgreSQL"/><br><sub>PostgreSQL</sub></td>
 <td align="center" width="90"><img src="https://skillicons.dev/icons?i=supabase" height="40" alt="Supabase"/><br><sub>Supabase</sub></td>
 </tr></table>
 
 **Embedded &amp; HDL**
 <table><tr>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/arm/0091BD" height="40" alt="ARM Cortex-M"/><br><sub>ARM Cortex-M</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/arm/0091BD" height="40" alt="ARM<br>Cortex-M"/><br><sub>ARM<br>Cortex-M</sub></td>
 <td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" height="40" alt="Embedded C"/><br><sub>Embedded C</sub></td>
 <td align="center" width="90"><img src="assets/logos/freertos.png" height="40" alt="FreeRTOS"/><br><sub>FreeRTOS</sub></td>
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/espressif/E7352C" height="40" alt="ESP8266"/><br><sub>ESP8266</sub></td>
 <td align="center" width="90"><img src="assets/logos/microchip.png" height="40" alt="AVR MCU"/><br><sub>AVR MCU</sub></td>
 <td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/verilog/verilog-original.svg" height="40" alt="Verilog"/><br><sub>Verilog</sub></td>
 <td align="center" width="90"><br><br><sub>VHDL</sub></td>
-<td align="center" width="90"><img src="assets/logos/cia.png" height="40" alt="CAN · I²C · SPI · UART"/><br><sub>CAN · I²C · SPI · UART</sub></td>
+<td align="center" width="140"><img src="assets/logos/can.png" height="32" alt="CAN · I²C · SPI · UART"/>&nbsp;<img src="assets/logos/i2c.png" height="32" alt="CAN · I²C · SPI · UART"/><br><sub>CAN · I²C · SPI · UART</sub></td>
 </tr></table>
 
 **Industrial &amp; networking**
@@ -62,10 +62,10 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **e
 <td align="center" width="120"><img src="https://cdn.simpleicons.org/generalelectric/3B8FE0" height="40" alt="GE Mark VIe"/><br><sub>GE Mark VIe</sub></td>
 <td align="center" width="120"><img src="https://cdn.simpleicons.org/siemens/009999" height="40" alt="PCS7 / TIA Portal"/><br><sub>PCS7 / TIA Portal</sub></td>
 <td align="center" width="120"><img src="https://cdn.simpleicons.org/rockwellautomation/CD163F" height="40" alt="Studio 5000"/><br><sub>Studio 5000</sub></td>
-<td align="center" width="120"><img src="assets/logos/bently.png" height="40" alt="Bently Nevada 3500"/><br><sub>Bently Nevada 3500</sub></td>
+<td align="center" width="120"><br><br><sub>Bently Nevada<br>3500</sub></td>
 <td align="center" width="120"><br><br><sub>HIMatrix SIS</sub></td>
-<td align="center" width="120"><img src="assets/logos/dettronics.png" height="40" alt="Det-Tronics F&amp;G"/><br><sub>Det-Tronics F&amp;G</sub></td>
-<td align="center" width="120"><img src="assets/logos/profibus.png" height="40" alt="PROFIBUS · Modbus"/>&nbsp;<img src="assets/logos/modbus.png" height="40" alt="PROFIBUS · Modbus"/><br><sub>PROFIBUS · Modbus</sub></td>
+<td align="center" width="120"><img src="assets/logos/dettronics.png" height="40" alt="Det-Tronics<br>F&amp;G"/><br><sub>Det-Tronics<br>F&amp;G</sub></td>
+<td align="center" width="140"><img src="assets/logos/modbus.png" height="32" alt="PROFIBUS · Modbus"/><br><sub>PROFIBUS · Modbus</sub></td>
 <td align="center" width="120"><img src="https://cdn.simpleicons.org/cisco/1BA0D7" height="40" alt="Cisco · VLANs"/><br><sub>Cisco · VLANs</sub></td>
 </tr></table>
 

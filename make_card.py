@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generates dark_mode.svg (neofetch-style card) from photo.jpg + live GitHub stats."""
+"""Generates card.svg (neofetch-style card) from photo.jpg + live GitHub stats."""
 import json, os, subprocess, urllib.request
 from html import escape
 from PIL import Image, ImageOps, ImageEnhance
@@ -90,5 +90,5 @@ svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 </text>
 </svg>
 '''
-open("dark_mode.svg", "w").write(svg)
-print(f"dark_mode.svg written ({len(svg)//1024} KB)")
+open("card.svg", "w").write(svg)
+print(f"card.svg written ({len(svg)//1024} KB)")
