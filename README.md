@@ -34,62 +34,60 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **e
 
 **Core**
 <table><tr>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="40" height="40" alt="C"/><br><sub>C</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="40" height="40" alt="C++"/><br><sub>C++</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=py" width="40" height="40" alt="Python"/><br><sub>Python</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/stmicroelectronics/3CB4E6" width="40" height="40" alt="STM32"/><br><sub>STM32</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=arduino" width="40" height="40" alt="Arduino"/><br><sub>Arduino</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code"/><br><sub>VS Code</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=qt" width="40" height="40" alt="Qt"/><br><sub>Qt / PyQt6</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres" width="40" height="40" alt="PostgreSQL"/><br><sub>PostgreSQL</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=supabase" width="40" height="40" alt="Supabase"/><br><sub>Supabase</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" height="40" alt="C"/><br><sub>C</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" height="40" alt="C++"/><br><sub>C++</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=py" height="40" alt="Python"/><br><sub>Python</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/stmicroelectronics/3CB4E6" height="40" alt="STM32"/><br><sub>STM32</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=arduino" height="40" alt="Arduino"/><br><sub>Arduino</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=vscode" height="40" alt="VS Code"/><br><sub>VS Code</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=qt" height="40" alt="Qt / PyQt6"/><br><sub>Qt / PyQt6</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres" height="40" alt="PostgreSQL"/><br><sub>PostgreSQL</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=supabase" height="40" alt="Supabase"/><br><sub>Supabase</sub></td>
 </tr></table>
 
-**Embedded & HDL**
+**Embedded &amp; HDL**
 <table><tr>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/arm/0091BD" width="40" height="40" alt="ARM"/><br><sub>ARM Cortex-M</sub></td>
-<td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="40" height="40" alt="Embedded C"/><br><sub>Embedded C</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=aws" width="40" height="40" alt="FreeRTOS (AWS)"/><br><sub>FreeRTOS</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/espressif/E7352C" width="40" height="40" alt="Espressif"/><br><sub>ESP8266</sub></td>
-<td align="center" width="90"><br><br><sub>AVR MCU</sub></td>
-<td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/verilog/verilog-original.svg" width="40" height="40" alt="Verilog"/><br><sub>Verilog</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/arm/0091BD" height="40" alt="ARM Cortex-M"/><br><sub>ARM Cortex-M</sub></td>
+<td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" height="40" alt="Embedded C"/><br><sub>Embedded C</sub></td>
+<td align="center" width="90"><img src="assets/logos/freertos.png" height="40" alt="FreeRTOS"/><br><sub>FreeRTOS</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/espressif/E7352C" height="40" alt="ESP8266"/><br><sub>ESP8266</sub></td>
+<td align="center" width="90"><img src="assets/logos/microchip.png" height="40" alt="AVR MCU"/><br><sub>AVR MCU</sub></td>
+<td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/verilog/verilog-original.svg" height="40" alt="Verilog"/><br><sub>Verilog</sub></td>
 <td align="center" width="90"><br><br><sub>VHDL</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/bosch/EA0016" width="40" height="40" alt="Bosch"/><br><sub>CAN</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/nxp/F9B500" width="40" height="40" alt="NXP"/><br><sub>I²C</sub></td>
-<td align="center" width="90"><br><br><sub>SPI · UART</sub></td>
+<td align="center" width="90"><img src="assets/logos/cia.png" height="40" alt="CAN · I²C · SPI · UART"/><br><sub>CAN · I²C · SPI · UART</sub></td>
 </tr></table>
 
-**Industrial & networking**
+**Industrial &amp; networking**
 <table><tr>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/generalelectric/3B8FE0" width="40" height="40" alt="GE"/><br><sub>GE Mark VIe</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/siemens/009999" width="40" height="40" alt="Siemens"/><br><sub>PCS7 / TIA Portal</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/rockwellautomation/CD163F" width="40" height="40" alt="Rockwell"/><br><sub>Studio 5000</sub></td>
-<td align="center" width="90"><br><br><sub>Bently Nevada 3500</sub></td>
-<td align="center" width="90"><br><br><sub>HIMatrix SIS</sub></td>
-<td align="center" width="90"><br><br><sub>Det-Tronics F&amp;G</sub></td>
-<td align="center" width="90"><br><br><sub>PROFIBUS · Modbus</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/cisco/1BA0D7" width="40" height="40" alt="Cisco"/><br><sub>Cisco · VLANs</sub></td>
+<td align="center" width="120"><img src="https://cdn.simpleicons.org/generalelectric/3B8FE0" height="40" alt="GE Mark VIe"/><br><sub>GE Mark VIe</sub></td>
+<td align="center" width="120"><img src="https://cdn.simpleicons.org/siemens/009999" height="40" alt="PCS7 / TIA Portal"/><br><sub>PCS7 / TIA Portal</sub></td>
+<td align="center" width="120"><img src="https://cdn.simpleicons.org/rockwellautomation/CD163F" height="40" alt="Studio 5000"/><br><sub>Studio 5000</sub></td>
+<td align="center" width="120"><img src="assets/logos/bently.png" height="40" alt="Bently Nevada 3500"/><br><sub>Bently Nevada 3500</sub></td>
+<td align="center" width="120"><br><br><sub>HIMatrix SIS</sub></td>
+<td align="center" width="120"><img src="assets/logos/dettronics.png" height="40" alt="Det-Tronics F&amp;G"/><br><sub>Det-Tronics F&amp;G</sub></td>
+<td align="center" width="120"><img src="assets/logos/profibus.png" height="40" alt="PROFIBUS · Modbus"/>&nbsp;<img src="assets/logos/modbus.png" height="40" alt="PROFIBUS · Modbus"/><br><sub>PROFIBUS · Modbus</sub></td>
+<td align="center" width="120"><img src="https://cdn.simpleicons.org/cisco/1BA0D7" height="40" alt="Cisco · VLANs"/><br><sub>Cisco · VLANs</sub></td>
 </tr></table>
 
-**OS & tools**
+**OS &amp; tools**
 <table><tr>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="Linux"/><br><sub>Linux</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu" width="40" height="40" alt="Ubuntu"/><br><sub>Ubuntu</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=windows" width="40" height="40" alt="Windows"/><br><sub>Windows</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=bash" width="40" height="40" alt="Bash"/><br><sub>Bash</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git"/><br><sub>Git</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub"/><br><sub>GitHub</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux" height="40" alt="Linux"/><br><sub>Linux</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu" height="40" alt="Ubuntu"/><br><sub>Ubuntu</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=windows" height="40" alt="Windows"/><br><sub>Windows</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=bash" height="40" alt="Bash"/><br><sub>Bash</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" height="40" alt="Git"/><br><sub>Git</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub"/><br><sub>GitHub</sub></td>
 </tr></table>
 
 **Web**
 <table><tr>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="40" height="40" alt="JavaScript"/><br><sub>JavaScript</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML"/><br><sub>HTML</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=css" width="40" height="40" alt="CSS"/><br><sub>CSS</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40" alt="Node.js"/><br><sub>Node.js</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React"/><br><sub>React</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=vercel" width="40" height="40" alt="Vercel"/><br><sub>Vercel</sub></td>
-<td align="center" width="90"><img src="https://skillicons.dev/icons?i=netlify" width="40" height="40" alt="Netlify"/><br><sub>Netlify</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" height="40" alt="JavaScript"/><br><sub>JavaScript</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=html" height="40" alt="HTML"/><br><sub>HTML</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=css" height="40" alt="CSS"/><br><sub>CSS</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="Node.js"/><br><sub>Node.js</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=react" height="40" alt="React"/><br><sub>React</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=vercel" height="40" alt="Vercel"/><br><sub>Vercel</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=netlify" height="40" alt="Netlify"/><br><sub>Netlify</sub></td>
 </tr></table>
 
 ---
