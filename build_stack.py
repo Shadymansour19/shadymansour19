@@ -21,7 +21,7 @@ groups = [
  ("Web", [cell(n,[SK+i]) for n,i in [("JavaScript","js"),("HTML","html"),("CSS","css"),("Node.js","nodejs"),("React","react"),("Vercel","vercel"),("Netlify","netlify")]]),
 ]
 SMALL = ("Core", "Industrial &amp; networking")
-def shrink(t, x): return x.replace("<sub>", "<sub>" + "<small>"*3).replace("</sub>", "</small>"*3 + "</sub>")
+def shrink(t, x): return x.replace("<sub>", "<sub><sub>").replace("</sub>", "</sub></sub>")
 sec = "### 🛠️ Tech stack\n\n" + "".join(f"**{t}**\n<table><tr>\n" + "\n".join(shrink(t, x) for x in c) + "\n</tr></table>\n\n" for t, c in groups) + "---\n\n"
 s = open("README.md").read(); a = s.index("### 🛠️ Tech stack"); b = s.index("### 🚀 Featured projects")
 open("README.md", "w").write(s[:a] + sec + s[b:]); print("✅ tech stack rebuilt")
