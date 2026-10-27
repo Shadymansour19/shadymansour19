@@ -1,4 +1,3 @@
-<!-- ===== HERO (your neofetch card) ===== -->
 <p align="center">
   <img src="dark_mode.svg" alt="Shady Mansour" width="100%">
 </p>
@@ -11,6 +10,8 @@
   <a href="https://www.linkedin.com/in/shadymansour19"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://www.upwork.com/freelancers/~01798d29b8076093d9"><img src="https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"></a>
   <a href="https://contra.com/shadymansour19"><img src="https://img.shields.io/badge/Contra-000000?style=for-the-badge&logoColor=white"></a>
+  <a href="https://leetcode.com/u/shadymansour19/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"></a>
+  <a href="https://www.hackerrank.com/profile/shadymansour19"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"></a>
   <a href="mailto:shadymansour19@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <img src="https://komarev.com/ghpvc/?username=shadymansour19&style=for-the-badge&color=ffa657&label=Profile+views">
 </p>
@@ -54,19 +55,23 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and 
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
-| ⏱️ **EMC Timesheet** | Engineers submit their days, the app builds the timesheet; admin reviews and exports to PDF/Excel | JS · Vercel | [Live](https://rashpetco-timesheet.vercel.app) · [Code](https://github.com/shadymansour19/Timesheet) |
-| 🛒 **Hamada Supermarket** | Web app for a local supermarket | JS · Vercel | [Live](https://super-market-hamada.vercel.app) · [Code](https://github.com/shadymansour19/Supermarket-PriceBoard) |
-| 📋 **Handover** | Work-permit and equipment tracking for an oil & gas facility | Apps Script · Sheets → Supabase | [Code](https://github.com/shadymansour19/handover) |
-| 📈 **Miniscope** | Real-time serial plotter with FFT for STM32 data | C++ · Qt | [Code](https://github.com/shadymansour19/MiniScope) |
+| 📝 **PTW** | Permit-to-Work system for an oil & gas facility | Web | [Code](https://github.com/shadymansour19/ptw) |
+| 📈 **MiniScope** | Real-time serial plotter with FFT for STM32 data | C++ · Qt | [Code](https://github.com/shadymansour19/MiniScope) |
+| 📡 **FOTA** | Graduation project: firmware-over-the-air updates for embedded targets | Embedded C | [Code](https://github.com/shadymansour19/FOTA-Graduation-Project) |
+| ⏱️ **Timesheet** | Engineers submit their days, the app builds the timesheet; admin reviews and exports to PDF/Excel | JS · Vercel | [Live](https://rashpetco-timesheet.vercel.app) · [Code](https://github.com/shadymansour19/Timesheet) |
+| 🛒 **Supermarket PriceBoard** | Price board web app for a local supermarket | JS · Vercel | [Live](https://super-market-hamada.vercel.app) · [Code](https://github.com/shadymansour19/Supermarket-PriceBoard) |
+| 🏠 **Smart Home** | Home automation project | Embedded · IoT | [Code](https://github.com/shadymansour19/SMART-HOME) |
+| 🐚 **Remote Unix Shell** | Client/server shell over network sockets | C · Linux | [Code](https://github.com/shadymansour19/Remote-Unix-Shell) |
+| 🛰️ **Satellite Look Angles** | Azimuth/elevation calculator for pointing a dish at a satellite | — | [Code](https://github.com/shadymansour19/Satellite-Look-Angles-calculator) |
 
 <p align="center">
-  <a href="https://github.com/shadymansour19/Timesheet"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shadymansour19&repo=Timesheet&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657" /></a>
-  <a href="https://github.com/shadymansour19/Supermarket-PriceBoard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shadymansour19&repo=Supermarket-PriceBoard&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657" /></a>
+  <a href="https://github.com/shadymansour19/ptw"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shadymansour19&repo=ptw&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657" /></a>
+  <a href="https://github.com/shadymansour19/MiniScope"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shadymansour19&repo=MiniScope&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657" /></a>
 </p>
 
 ---
 
-### 📊 GitHub stats
+### 📊 Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=shadymansour19&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657&icon_color=a5d6ff&include_all_commits=true&count_private=true" />
@@ -74,6 +79,9 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and 
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=shadymansour19&theme=github-dark-blue&hide_border=true&background=161b22&ring=ffa657&fire=ffa657&currStreakLabel=ffa657" />
+</p>
+<p align="center">
+  <a href="https://leetcode.com/u/shadymansour19/"><img src="https://leetcard.jacoblin.cool/shadymansour19?theme=dark&font=Fira%20Code&ext=heatmap" /></a>
 </p>
 
 <p align="center">
