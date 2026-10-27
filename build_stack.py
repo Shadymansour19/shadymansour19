@@ -1,4 +1,4 @@
-import os, glob
+import glob
 def local(key):
     f = sorted(glob.glob(f"assets/logos/{key}.*")); return f[0] if f else None
 def cell(label, imgs=(), w=90, h=40):

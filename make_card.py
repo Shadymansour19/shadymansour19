@@ -2,7 +2,7 @@
 """Generates card.svg (neofetch-style card) from photo.jpg + live GitHub stats."""
 import json, os, subprocess, urllib.request
 from html import escape
-from PIL import Image, ImageOps, ImageEnhance
+from PIL import Image, ImageOps, ImageFilter
 
 USER = "shadymansour19"
 
@@ -29,24 +29,24 @@ except Exception as e:
     print("stats fetch failed:", e); REPOS, STARS, FOLLOWERS = 17, 0, 6
 print(f"Repos={REPOS} Stars={STARS} Followers={FOLLOWERS}")
 
-# ---------- ASCII portrait (monochrome, brightness-mapped) ----------
+# ---------- ASCII portrait ----------
 img = Image.open("photo.jpg").convert("L")
 w, h = img.size
-img = img.crop((int(w*.13), int(h*.06), int(w*.87), int(h*.80)))
+img = img.crop((int(w*.10), int(h*.07), int(w*.90), int(h*.72)))
 img = ImageOps.autocontrast(img, cutoff=1)
-img = img.point(lambda p: int(255 * (p / 255) ** 1.25))
-AW = 80
+img = img.filter(ImageFilter.GaussianBlur(1.5))
+AW = 50
 AH = int(AW * img.height / img.width * 0.5)
 small = img.resize((AW, AH), Image.LANCZOS)
-RAMP = "@&%#W8*o+=~-:,. "
-AFS, ALH = 8.5, 9.4
-AX, AY = 18, 24
-art = []
-for y in range(AH):
-    row = "".join(RAMP[min(len(RAMP)-1, small.getpixel((x, y)) * len(RAMP) // 256)] for x in range(AW)).rstrip()
-    art.append(f'<tspan x="{AX}" y="{AY + y*ALH:.1f}">{escape(row)}</tspan>')
+RAMP = "@%#*+=-:. "
+AFS, ALH = 12.5, 14
+rows_txt = ["".join(RAMP[min(len(RAMP)-1, small.getpixel((x, y)) * len(RAMP) // 256)] for x in range(AW)).rstrip()
+            for y in range(AH)]
+while rows_txt and not rows_txt[0].strip(): rows_txt.pop(0)
+while rows_txt and not rows_txt[-1].strip(): rows_txt.pop()
 
 # ---------- info column ----------
+AY = 24
 TFS, TLH, TX, TCW, KEYCOLS, LINE = 14, 21, 440, 8.4, 27, 58
 VX = TX + KEYCOLS * TCW
 rows = [("title", "shady@mansour"),
@@ -74,7 +74,11 @@ for k, v in rows:
                     f'<tspan class="dim"> {"."*dots}</tspan><tspan x="{VX:.0f}" class="val">{escape(v)}</tspan>')
     y += TLH
 
-W = 1000; H = int(max(AY + AH*ALH, y)) + 10
+W = 1000; H = int(max(len(rows_txt)*ALH + 2*AY, y)) + 10
+CW = AFS * 0.6
+AX = max(10, (TX - 20 - AW * CW) / 2)
+AY0 = (H - (len(rows_txt) - 1) * ALH) / 2 + AFS * 0.35
+art = [f'<tspan x="{AX:.1f}" y="{AY0 + i*ALH:.1f}">{escape(r)}</tspan>' for i, r in enumerate(rows_txt)]
 svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="Consolas,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace">
 <style>
