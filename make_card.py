@@ -52,7 +52,7 @@ VX = TX + KEYCOLS * TCW
 rows = [("title", "shady@mansour"),
  ("OS", "Ubuntu 24.04, Windows 11, Android"), ("Uptime", "26 years"), ("Host", "Rashpetco"),
  ("Kernel", "I&C and Network Engineer"), ("IDE", "VS Code, Qt Creator, STM32CubeIDE"), ("", ""),
- ("Languages.Programming", "C, C++, Python, JavaScript"), ("Languages.HDL", "Verilog, VHDL"),
+ ("Languages.Programming", "C, C++, Python, Java, JavaScript"), ("Languages.HDL", "Verilog, VHDL"),
  ("Languages.Computer", "HTML, CSS, SQL, JSON, YAML"), ("Languages.Real", "Arabic, English"), ("", ""),
  ("Hobbies.Software", "PyQt6 Apps, Web Apps"), ("Hobbies.Hardware", "STM32, ARM, FreeRTOS, ESP"),
  ("Industrial", "Mark VIe, PCS7, HIMatrix, Bently"), ("", ""),
