@@ -29,37 +29,22 @@ except Exception as e:
     print("stats fetch failed:", e); REPOS, STARS, FOLLOWERS = 17, 0, 6
 print(f"Repos={REPOS} Stars={STARS} Followers={FOLLOWERS}")
 
-# ---------- colored ASCII portrait ----------
-img = Image.open("photo.jpg").convert("RGB")
+# ---------- ASCII portrait (monochrome, brightness-mapped) ----------
+img = Image.open("photo.jpg").convert("L")
 w, h = img.size
 img = img.crop((int(w*.13), int(h*.06), int(w*.87), int(h*.80)))
-img = ImageEnhance.Contrast(img).enhance(1.2)
-img = ImageEnhance.Color(img).enhance(1.35)
-AW = 76
+img = ImageOps.autocontrast(img, cutoff=1)
+img = img.point(lambda p: int(255 * (p / 255) ** 1.25))
+AW = 80
 AH = int(AW * img.height / img.width * 0.5)
 small = img.resize((AW, AH), Image.LANCZOS)
-gray = ImageOps.grayscale(small)
-RAMP = "%#@&8B$MW"
-def lift(c): return tuple(int(38 + v * 0.88) for v in c)
-AFS, ALH = 9, 9.6
+RAMP = "@&%#W8*o+=~-:,. "
+AFS, ALH = 8.5, 9.4
 AX, AY = 18, 24
 art = []
 for y in range(AH):
-    runs, prev, buf = [], None, ""
-    for x in range(AW):
-        r, g, b = small.getpixel((x, y)); lum = gray.getpixel((x, y))
-        if lum > 205 and max(r, g, b) - min(r, g, b) < 28:
-            ch, col = " ", None
-        else:
-            ch = RAMP[(x * 7 + y * 3) % len(RAMP)]
-            q = tuple(min(255, v // 8 * 8) for v in lift((r, g, b))); col = "#%02x%02x%02x" % q
-        if col != prev and buf:
-            runs.append((prev, buf)); buf = ""
-        prev = col; buf += ch
-    if buf: runs.append((prev, buf))
-    while runs and runs[-1][0] is None: runs.pop()
-    parts = "".join(f'<tspan fill="{c}">{escape(s)}</tspan>' if c else escape(s) for c, s in runs)
-    art.append(f'<tspan x="{AX}" y="{AY + y*ALH:.1f}">{parts}</tspan>')
+    row = "".join(RAMP[min(len(RAMP)-1, small.getpixel((x, y)) * len(RAMP) // 256)] for x in range(AW)).rstrip()
+    art.append(f'<tspan x="{AX}" y="{AY + y*ALH:.1f}">{escape(row)}</tspan>')
 
 # ---------- info column ----------
 TFS, TLH, TX, TCW, KEYCOLS, LINE = 14, 21, 440, 8.4, 27, 58
@@ -97,7 +82,7 @@ svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 @media (prefers-color-scheme: light){{.bg{{fill:#f6f8fa}} .key{{fill:#953800}} .val{{fill:#0a3069}} .dim{{fill:#9aa7b5}} .base{{fill:#24292f}}}}
 </style>
 <rect class="bg" width="{W}" height="{H}" rx="15"/>
-<text font-size="{AFS}px" font-weight="bold">
+<text class="base" font-size="{AFS}px">
 {chr(10).join(art)}
 </text>
 <text class="base" font-size="{TFS}px">
