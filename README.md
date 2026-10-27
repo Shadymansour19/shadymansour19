@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFA657&center=true&vCenter=true&width=700&lines=I%26C+%26+Network+Engineer+%40+Rashpetco;Full-Stack+Web+Developer;Embedded+Systems+Tinkerer;Turning+field+problems+into+web+apps" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFA657&center=true&vCenter=true&width=700&lines=I%26C+%26+Network+Engineer+%40+Rashpetco;Embedded+Systems+Engineer;Python+%2F+Qt+%26+Web+Developer;Turning+field+problems+into+software" alt="Typing SVG">
 </p>
 
 <p align="center">
@@ -20,34 +20,67 @@
 
 ### 👋 About me
 
-I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and a **web developer** the rest of the time. I live between gas turbines and GitHub, so most of what I build solves real problems from the field: permits, handovers, timesheets.
+I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **embedded systems** background and a habit of building software for the problems I see in the field: permits, handovers, timesheets.
 
 - 🏭 Working on control & safety systems: GE Mark VIe, Siemens PCS7 / TIA Portal, Allen-Bradley, Bently Nevada 3500, HIMatrix
-- 💻 Building web apps and freelancing on Upwork & Contra
+- 🔌 Embedded: STM32 / ARM Cortex-M, FreeRTOS, AVR, ESP8266, CAN / SPI / I²C / UART / Modbus
+- 🖥️ Desktop & web apps in Python/Qt and JavaScript, freelancing on Upwork & Contra
 - 💳 Working on a fintech contractor-financing platform at **Improvifi**
-- 🔌 Embedded background: STM32, AVR, ESP8266, CAN / SPI / I²C / Modbus
 - 📍 Egypt
 
 ---
 
 ### 🛠️ Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,html,css,react,nodejs,qt&perline=10" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,vercel,netlify,git,github,linux,ubuntu,vscode,arduino&perline=10" />
-</p>
+**Core**
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge)
+![Qt](https://img.shields.io/badge/Qt_%2F_PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+**Embedded & HDL**
+
+![ARM](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-6DB33F?style=for-the-badge)
+![AVR](https://img.shields.io/badge/AVR-555555?style=for-the-badge)
+![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-8B0000?style=for-the-badge)
+![VHDL](https://img.shields.io/badge/VHDL-4B0082?style=for-the-badge)
+![Protocols](https://img.shields.io/badge/CAN_%7C_SPI_%7C_I2C_%7C_UART-444444?style=for-the-badge)
+
+**OS & tools**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 **Industrial & networking**
 
-![GE Mark VIe](https://img.shields.io/badge/GE_Mark_VIe-1f6feb?style=flat-square)
-![Siemens PCS7 / TIA](https://img.shields.io/badge/Siemens_PCS7_%2F_TIA_Portal-009999?style=flat-square&logo=siemens&logoColor=white)
-![Studio 5000](https://img.shields.io/badge/Allen--Bradley_Studio_5000-C8102E?style=flat-square)
-![Bently Nevada](https://img.shields.io/badge/Bently_Nevada_3500-444?style=flat-square)
-![HIMatrix](https://img.shields.io/badge/HIMatrix_SIS-E30613?style=flat-square)
-![PROFIBUS](https://img.shields.io/badge/PROFIBUS-555?style=flat-square)
-![Modbus](https://img.shields.io/badge/Modbus-555?style=flat-square)
-![Cisco](https://img.shields.io/badge/Cisco_Switching_%26_VLANs-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![GE Mark VIe](https://img.shields.io/badge/GE_Mark_VIe-1f6feb?style=for-the-badge)
+![Siemens PCS7 / TIA](https://img.shields.io/badge/PCS7_%2F_TIA_Portal-009999?style=for-the-badge&logo=siemens&logoColor=white)
+![Studio 5000](https://img.shields.io/badge/Studio_5000-C8102E?style=for-the-badge)
+![Bently Nevada](https://img.shields.io/badge/Bently_Nevada_3500-444444?style=for-the-badge)
+![HIMatrix](https://img.shields.io/badge/HIMatrix_SIS-E30613?style=for-the-badge)
+![PROFIBUS](https://img.shields.io/badge/PROFIBUS_%7C_Modbus-555555?style=for-the-badge)
+![Cisco](https://img.shields.io/badge/Cisco_%7C_VLANs-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+
+**Web**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
 
@@ -55,7 +88,7 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and 
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
-| 📝 **PTW** | Permit-to-Work system for an oil & gas facility | Web | [Code](https://github.com/shadymansour19/ptw) |
+| 📝 **PTW** | Permit-to-Work desktop app for an oil & gas facility | Python · PyQt6 | [Code](https://github.com/shadymansour19/ptw) |
 | 📈 **MiniScope** | Real-time serial plotter with FFT for STM32 data | C++ · Qt | [Code](https://github.com/shadymansour19/MiniScope) |
 | 📡 **FOTA** | Graduation project: firmware-over-the-air updates for embedded targets | Embedded C | [Code](https://github.com/shadymansour19/FOTA-Graduation-Project) |
 | ⏱️ **Timesheet** | Engineers submit their days, the app builds the timesheet; admin reviews and exports to PDF/Excel | JS · Vercel | [Live](https://rashpetco-timesheet.vercel.app) · [Code](https://github.com/shadymansour19/Timesheet) |
@@ -74,7 +107,7 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and 
 ### 📊 Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shadymansour19&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657&icon_color=a5d6ff&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shadymansour19&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657&icon_color=a5d6ff" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shadymansour19&layout=compact&theme=github_dark&hide_border=true&bg_color=161b22&title_color=ffa657&langs_count=8" />
 </p>
 <p align="center">
@@ -82,10 +115,6 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas by day, and 
 </p>
 <p align="center">
   <a href="https://leetcode.com/u/shadymansour19/"><img src="https://leetcard.jacoblin.cool/shadymansour19?theme=dark&font=Fira%20Code&ext=heatmap" /></a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shadymansour19&bg_color=161b22&color=a5d6ff&line=ffa657&point=ffffff&area=true&hide_border=true" width="100%" />
 </p>
 
 <p align="center">
