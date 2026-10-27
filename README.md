@@ -49,12 +49,14 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **e
 <table><tr>
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/arm/0091BD" width="40" height="40" alt="ARM"/><br><sub>ARM Cortex-M</sub></td>
 <td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="40" height="40" alt="Embedded C"/><br><sub>Embedded C</sub></td>
-<td align="center" width="90"><h2>⏱️</h2><sub>FreeRTOS</sub></td>
-<td align="center" width="90"><img src="https://cdn.simpleicons.org/espressif/E7352C" width="40" height="40" alt="ESP8266"/><br><sub>ESP8266</sub></td>
-<td align="center" width="90"><h2>🔌</h2><sub>AVR</sub></td>
+<td align="center" width="90"><img src="https://skillicons.dev/icons?i=aws" width="40" height="40" alt="FreeRTOS (AWS)"/><br><sub>FreeRTOS</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/espressif/E7352C" width="40" height="40" alt="Espressif"/><br><sub>ESP8266</sub></td>
+<td align="center" width="90"><br><br><sub>AVR MCU</sub></td>
 <td align="center" width="90"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/verilog/verilog-original.svg" width="40" height="40" alt="Verilog"/><br><sub>Verilog</sub></td>
-<td align="center" width="90"><h2>🔲</h2><sub>VHDL</sub></td>
-<td align="center" width="90"><h2>📡</h2><sub>CAN · SPI · I²C · UART</sub></td>
+<td align="center" width="90"><br><br><sub>VHDL</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/bosch/EA0016" width="40" height="40" alt="Bosch"/><br><sub>CAN</sub></td>
+<td align="center" width="90"><img src="https://cdn.simpleicons.org/nxp/F9B500" width="40" height="40" alt="NXP"/><br><sub>I²C</sub></td>
+<td align="center" width="90"><br><br><sub>SPI · UART</sub></td>
 </tr></table>
 
 **Industrial & networking**
@@ -62,10 +64,10 @@ I'm an **Instrumentation, Control & Network Engineer** in oil & gas, with an **e
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/generalelectric/3B8FE0" width="40" height="40" alt="GE"/><br><sub>GE Mark VIe</sub></td>
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/siemens/009999" width="40" height="40" alt="Siemens"/><br><sub>PCS7 / TIA Portal</sub></td>
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/rockwellautomation/CD163F" width="40" height="40" alt="Rockwell"/><br><sub>Studio 5000</sub></td>
-<td align="center" width="90"><h2>📳</h2><sub>Bently Nevada 3500</sub></td>
-<td align="center" width="90"><h2>🛡️</h2><sub>HIMatrix SIS</sub></td>
-<td align="center" width="90"><h2>🔥</h2><sub>Det-Tronics F&amp;G</sub></td>
-<td align="center" width="90"><h2>🔗</h2><sub>PROFIBUS · Modbus</sub></td>
+<td align="center" width="90"><br><br><sub>Bently Nevada 3500</sub></td>
+<td align="center" width="90"><br><br><sub>HIMatrix SIS</sub></td>
+<td align="center" width="90"><br><br><sub>Det-Tronics F&amp;G</sub></td>
+<td align="center" width="90"><br><br><sub>PROFIBUS · Modbus</sub></td>
 <td align="center" width="90"><img src="https://cdn.simpleicons.org/cisco/1BA0D7" width="40" height="40" alt="Cisco"/><br><sub>Cisco · VLANs</sub></td>
 </tr></table>
 
