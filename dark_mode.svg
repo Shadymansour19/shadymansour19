@@ -1,11 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" font-family="Consolas,'DejaVu Sans Mono','Courier New',monospace" width="1000px" height="520px" font-size="16px">
+<svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 579" width="1000" height="579" font-family="Consolas,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace">
 <style>
-@font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
-.key {fill:#ffa657;} .val {fill:#a5d6ff;} .dim {fill:#616e7f;} .bg {fill:#161b22;} text,tspan {white-space:pre;} .base {fill:#c9d1d9;}
-@media (prefers-color-scheme: light) { .bg {fill:#f6f8fa;} .key {fill:#953800;} .val {fill:#0a3069;} .dim {fill:#c2cfde;} .base {fill:#24292f;} }
+.key{fill:#ffa657} .val{fill:#a5d6ff} .dim{fill:#616e7f} .bg{fill:#161b22} .base{fill:#c9d1d9} .art{fill:#c9d1d9}
+@media (prefers-color-scheme: light){.bg{fill:#f6f8fa} .key{fill:#953800} .val{fill:#0a3069} .dim{fill:#9aa7b5} .base,.art{fill:#24292f}}
 </style>
-<rect class="bg" width="1000px" height="520px" rx="15"/>
-<text class="base" font-size="15px"><tspan x="15" y="30">                  -=--</tspan><tspan x="15" y="47">             -*#%@@%%%%%#*+</tspan><tspan x="15" y="64">            #%@@@@@%%@%%@%#%#=</tspan><tspan x="15" y="81">          *#*+**#####*##*+==*%*</tspan><tspan x="15" y="98">         ##=======++========-*%*</tspan><tspan x="15" y="115">        +%=======----=========*%</tspan><tspan x="15" y="132">        ##=====------===-=====+%+</tspan><tspan x="15" y="149">        %*====------------====+%*</tspan><tspan x="15" y="166">        %*==+++=--------=+++==+%+</tspan><tspan x="15" y="183">        **=+**##*+=--=+*##*+===%+-</tspan><tspan x="15" y="200">      *=+*=+*+****=--+++**+*+==#=+=</tspan><tspan x="15" y="217">      -=++===+=++==============*++</tspan><tspan x="15" y="234">        =*===-===+=====------=+*+</tspan><tspan x="15" y="251">         +*-=--====-==+=-----=%=</tspan><tspan x="15" y="268">         -@*===++*****++==-=+%%</tspan><tspan x="15" y="285">          #@#+###**+***##*+#%@*</tspan><tspan x="15" y="302">          -@@%#+++**+++=+%@@@%</tspan><tspan x="15" y="319">           @@@@*++###+=+%@@@@#</tspan><tspan x="15" y="336">         *@*%@@@%##%###@@@@@##*</tspan><tspan x="15" y="353">     +#@@@@=#@@@@@@@@@@@@@@%=#@@@*</tspan><tspan x="15" y="370">+#%@@@@@@@@%-#%%@@@@@@@@@%%+=@@@@@@@%#*=</tspan><tspan x="15" y="387">@@@@@@@@@@@@%-+++*#####*+#*:#@@@@@@@@@@@</tspan><tspan x="15" y="404">@@@@@@@@@@@@@%-=+======+#+:%@@@@@@@@@@@@</tspan><tspan x="15" y="421">@@@@@@@@@@@@@@%+=+**+++*++%@@@@@@@@@@@@@</tspan><tspan x="15" y="438">@@@@@@@@@@@@@@@@*=-*#*=-#@@@@@@@@@@@@@@@</tspan><tspan x="15" y="455">@@@@@@@@@@@@@@@@%=:.--:%@@@@@@@@@@@@@@@@</tspan><tspan x="15" y="472">@@@@@@@@@@@@@@@@@@+:.-%@@@@@@@@@@@@@@@@@</tspan><tspan x="15" y="489">@@@@@@@@@@@@@@@@@@%::%@#@@@@@@@@@@@@@@@@</tspan></text>
-<text class="base"><tspan x="400" y="30" class="key">shady@mansour</tspan><tspan class="dim"> ----------------------------------------------</tspan><tspan x="400" y="50" class="dim">. </tspan><tspan class="key">OS</tspan>:<tspan class="dim"> ................. </tspan><tspan class="val">Ubuntu 24.04, Windows 11, Android</tspan><tspan x="400" y="70" class="dim">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dim"> .................................... </tspan><tspan class="val">26 years</tspan><tspan x="400" y="90" class="dim">. </tspan><tspan class="key">Host</tspan>:<tspan class="dim"> ....................................... </tspan><tspan class="val">Rashpetco</tspan><tspan x="400" y="110" class="dim">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dim"> ....... </tspan><tspan class="val">Instrumentation, Control &amp; Network Eng.</tspan><tspan x="400" y="130" class="dim">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dim"> ................ </tspan><tspan class="val">VS Code, Qt Creator, STM32CubeIDE</tspan><tspan x="400" y="150" class="dim">. </tspan><tspan x="400" y="170" class="dim">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="dim"> ..... </tspan><tspan class="val">Python, JavaScript, C, C++</tspan><tspan x="400" y="190" class="dim">. </tspan><tspan class="key">Languages.Computer</tspan>:<tspan class="dim"> ........ </tspan><tspan class="val">HTML, CSS, SQL, JSON, YAML</tspan><tspan x="400" y="210" class="dim">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="dim"> ....................... </tspan><tspan class="val">Arabic, English</tspan><tspan x="400" y="230" class="dim">. </tspan><tspan x="400" y="250" class="dim">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="dim"> .... </tspan><tspan class="val">PyQt6 Apps, Web Dev, Freelancing</tspan><tspan x="400" y="270" class="dim">. </tspan><tspan class="key">Hobbies.Hardware</tspan>:<tspan class="dim"> ....... </tspan><tspan class="val">STM32, ESP8266, AVR, Robotics</tspan><tspan x="400" y="290" class="dim">. </tspan><tspan class="key">Industrial</tspan>:<tspan class="dim"> ....... </tspan><tspan class="val">GE Mark VIe, PLCs, HIMatrix, Bently</tspan><tspan x="400" y="310" class="dim">. </tspan><tspan x="400" y="330" class="dim">- </tspan><tspan class="key">Contact</tspan><tspan class="dim"> --------------------------------------------------</tspan><tspan x="400" y="350" class="dim">. </tspan><tspan class="key">Email</tspan>:<tspan class="dim"> .............................. </tspan><tspan class="val">shadymansour19@gmail.com</tspan><tspan x="400" y="370" class="dim">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dim"> ............................. </tspan><tspan class="val">shadymansour19</tspan><tspan x="400" y="390" class="dim">. </tspan><tspan class="key">Upwork</tspan>:<tspan class="dim"> ................................. </tspan><tspan class="val">~01798d29b8076093d9</tspan><tspan x="400" y="410" class="dim">. </tspan><tspan x="400" y="430" class="dim">- </tspan><tspan class="key">GitHub Stats</tspan><tspan class="dim"> ---------------------------------------------</tspan><tspan x="400" y="450" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> ............................................ </tspan><tspan class="val">{0}</tspan><tspan x="400" y="470" class="dim">. </tspan><tspan class="key">Stars</tspan>:<tspan class="dim"> ............................................ </tspan><tspan class="val">{0}</tspan><tspan x="400" y="490" class="dim">. </tspan><tspan class="key">Followers</tspan>:<tspan class="dim"> ........................................ </tspan><tspan class="val">{0}</tspan></text>
+<rect class="bg" width="1000" height="579" rx="15"/>
+<text class="art" font-size="10px">
+<tspan x="20" y="26">                          *+==--=--==+*</tspan>
+<tspan x="20" y="37">                      *=:.....::::-::.::-+*</tspan>
+<tspan x="20" y="48">                    *-........:::...:::::::-=#</tspan>
+<tspan x="20" y="59">                   -..::............:..::-::::=</tspan>
+<tspan x="20" y="70">                 *..===--:::::::---::::-+**+-:.-</tspan>
+<tspan x="20" y="81">                +.-**+++++========++==+*#####=:.:</tspan>
+<tspan x="20" y="92">               +.-**++*******+++*************#-:.-</tspan>
+<tspan x="20" y="103">               .:+****************************+-:.#</tspan>
+<tspan x="20" y="114">              -.-*******############*###*******=-.=</tspan>
+<tspan x="20" y="125">              :.=*******##################*****+=::</tspan>
+<tspan x="20" y="136">              .:=*******#################******+-:.</tspan>
+<tspan x="20" y="147">              .:+*******#################*******-:.</tspan>
+<tspan x="20" y="158">              .:+******###################******=:.</tspan>
+<tspan x="20" y="169">              .:***+====+*############+===+++***+..</tspan>
+<tspan x="20" y="180">              -.**+++=-:::-+**####*+=-:--=++**+*+.- #%</tspan>
+<tspan x="20" y="191">           ++*+.**++==+::=--=+*##*+==+=--+==+***=.++*=</tspan>
+<tspan x="20" y="202">          *=**#-+*+=-=*==+-=++*##**+=*+:=*=-+***=:##*=</tspan>
+<tspan x="20" y="213">           ++**-+****++++==++***#****+++*++*****+-=**+</tspan>
+<tspan x="20" y="224">            *++++*******************###***####**+-==+</tspan>
+<tspan x="20" y="235">             #++-***####****++******##########**-=++</tspan>
+<tspan x="20" y="246">               *.+**#####**+**###*+++*#######**+.+*</tspan>
+<tspan x="20" y="257">                -:#**###***+**###**++*#######**::%</tspan>
+<tspan x="20" y="268">                +.=****##***+==+=+++**######**-.-</tspan>
+<tspan x="20" y="279">                #..-+**+===-::-=--:-===+****+:..+</tspan>
+<tspan x="20" y="290">                 :...=+:::-==++++===-:::=*+:....#</tspan>
+<tspan x="20" y="301">                 +....--=+===++++++==++:-:.....-</tspan>
+<tspan x="20" y="312">                  -....-+**++====++****:.......#</tspan>
+<tspan x="20" y="323">                  =.....:+++=:.::-+**+-.......=</tspan>
+<tspan x="20" y="334">                 =.......:=+===--++*+-........:</tspan>
+<tspan x="20" y="345">               =-.:#.......::-:.::::.........+.:</tspan>
+<tspan x="20" y="356">           *=.....=%.......................:-@:...:+</tspan>
+<tspan x="20" y="367">       *=:........-@=.....................--##.......:=</tspan>
+<tspan x="20" y="378">  *+-..............-@=...................:-=@............:-+</tspan>
+<tspan x="20" y="389">:...................=@===-:...........:-=::@%.................:-</tspan>
+<tspan x="20" y="400">.....................+@==##+==-::---=+*+-:%%=...................</tspan>
+<tspan x="20" y="411">......................+@=-*###***###**=::%@:....................</tspan>
+<tspan x="20" y="422">.......................#@+-+*******++=--@@-.....................</tspan>
+<tspan x="20" y="433">........................:##=+==++++*+==%=-......................</tspan>
+<tspan x="20" y="444">..........................*#*=-:-=++==@:........................</tspan>
+<tspan x="20" y="455">..........................-=*%#=.:=*%%=.........................</tspan>
+<tspan x="20" y="466">..........................:##%@@%+#@%:..........................</tspan>
+<tspan x="20" y="477">...........................:*#@@@@@%:...........................</tspan>
+<tspan x="20" y="488">.............................+#@@%%:............................</tspan>
+<tspan x="20" y="499">.............................:@@@%=..:..........................</tspan>
+<tspan x="20" y="510">..............................+@%+..--..........................</tspan>
+<tspan x="20" y="521">...............................#+...............................</tspan>
+<tspan x="20" y="532">...............................+:...............................</tspan>
+<tspan x="20" y="543">...............................=:...............................</tspan>
+<tspan x="20" y="554">..............................:+:...............................</tspan>
+</text>
+<text class="base" font-size="14px">
+<tspan x="430" y="30" class="key">shady@mansour</tspan><tspan class="dim"> ------------------------------------------</tspan>
+<tspan x="430" y="51" class="dim">. </tspan><tspan class="key">OS</tspan>:<tspan class="dim"> ................ </tspan><tspan class="val">Ubuntu 24.04, Windows 11, Android</tspan>
+<tspan x="430" y="72" class="dim">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dim"> ..................................... </tspan><tspan class="val">26 years</tspan>
+<tspan x="430" y="93" class="dim">. </tspan><tspan class="key">Host</tspan>:<tspan class="dim"> ...................................... </tspan><tspan class="val">Rashpetco</tspan>
+<tspan x="430" y="114" class="dim">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dim"> ..................... </tspan><tspan class="val">I&amp;C and Network Engineer</tspan>
+<tspan x="430" y="135" class="dim">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dim"> ............... </tspan><tspan class="val">VS Code, Qt Creator, STM32CubeIDE</tspan>
+<tspan x="430" y="156" class="dim">.</tspan>
+<tspan x="430" y="177" class="dim">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="dim"> .... </tspan><tspan class="val">Python, JavaScript, C, C++</tspan>
+<tspan x="430" y="198" class="dim">. </tspan><tspan class="key">Languages.Computer</tspan>:<tspan class="dim"> ....... </tspan><tspan class="val">HTML, CSS, SQL, JSON, YAML</tspan>
+<tspan x="430" y="219" class="dim">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="dim"> ...................... </tspan><tspan class="val">Arabic, English</tspan>
+<tspan x="430" y="240" class="dim">.</tspan>
+<tspan x="430" y="261" class="dim">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="dim"> ....... </tspan><tspan class="val">Web Apps, PyQt6, Freelancing</tspan>
+<tspan x="430" y="282" class="dim">. </tspan><tspan class="key">Hobbies.Hardware</tspan>:<tspan class="dim"> ...... </tspan><tspan class="val">STM32, ESP8266, AVR, Robotics</tspan>
+<tspan x="430" y="303" class="dim">. </tspan><tspan class="key">Industrial</tspan>:<tspan class="dim"> ......... </tspan><tspan class="val">Mark VIe, PCS7, HIMatrix, Bently</tspan>
+<tspan x="430" y="324" class="dim">.</tspan>
+<tspan x="430" y="345" class="dim">- </tspan><tspan class="key">Contact</tspan><tspan class="dim"> ----------------------------------------------</tspan>
+<tspan x="430" y="366" class="dim">. </tspan><tspan class="key">Email</tspan>:<tspan class="dim"> ...................... </tspan><tspan class="val">shadymansour19@gmail.com</tspan>
+<tspan x="430" y="387" class="dim">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dim"> ............................. </tspan><tspan class="val">shadymansour19</tspan>
+<tspan x="430" y="408" class="dim">. </tspan><tspan class="key">Upwork</tspan>:<tspan class="dim"> .......................... </tspan><tspan class="val">~01798d29b8076093d9</tspan>
+<tspan x="430" y="429" class="dim">.</tspan>
+<tspan x="430" y="450" class="dim">- </tspan><tspan class="key">GitHub Stats</tspan><tspan class="dim"> -----------------------------------------</tspan>
+<tspan x="430" y="471" class="dim">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dim"> ............................................ </tspan><tspan class="val">17</tspan>
+<tspan x="430" y="492" class="dim">. </tspan><tspan class="key">Stars</tspan>:<tspan class="dim"> ........................................... </tspan><tspan class="val">0</tspan>
+<tspan x="430" y="513" class="dim">. </tspan><tspan class="key">Followers</tspan>:<tspan class="dim"> ....................................... </tspan><tspan class="val">0</tspan>
+</text>
 </svg>
