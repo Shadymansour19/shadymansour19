@@ -78,11 +78,11 @@ W = 1000; H = int(max(len(rows_txt)*ALH + 2*AY, y)) + 10
 CW = AFS * 0.6
 AX = max(10, (TX - 20 - AW * CW) / 2)
 AY0 = (H - (len(rows_txt) - 1) * ALH) / 2 + AFS * 0.35
-art = [f'<tspan x="{AX:.1f}" y="{AY0 + i*ALH:.1f}">{escape(r)}</tspan>' for i, r in enumerate(rows_txt)]
+art = [f'<tspan x="{AX:.1f}" y="{AY0 + i*ALH:.1f}">{escape(r).replace(" ", "&#160;")}</tspan>' for i, r in enumerate(rows_txt)]
 svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xml:space="preserve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="Consolas,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace">
 <style>
-.key{{fill:#ffa657}} .val{{fill:#a5d6ff}} .dim{{fill:#616e7f}} .bg{{fill:#161b22}} .base{{fill:#c9d1d9}}
+.key{{fill:#ffa657}} .val{{fill:#a5d6ff}} .dim{{fill:#616e7f}} .bg{{fill:#161b22}} .base{{fill:#c9d1d9}} text,tspan{{white-space:pre}}
 @media (prefers-color-scheme: light){{.bg{{fill:#f6f8fa}} .key{{fill:#953800}} .val{{fill:#0a3069}} .dim{{fill:#9aa7b5}} .base{{fill:#24292f}}}}
 </style>
 <rect class="bg" width="{W}" height="{H}" rx="15"/>
